@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 700px;
+            display: grid;
+            place-items: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .card {
+            width: 250px;
+            height: 300px;
+            /* border: solid 1px #c7c7c7; */
+            box-shadow: 1px 1px 15px 1px #c7c7c763;
+            border-radius: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+
+        }
+
+        .card  > .title {
+            background-color: orange;
+            height: 35px;
+            width: 150px;
+            border-radius: 5px;
+            /* transform: rotateY(); */
+
+        }
+        
+
+        .title h3 {
+            color: white;
+            padding-top: 4px;
+        }
+
+        .sub-title{
+           font-weight: 300; 
+           padding: 10px;
+        }
+
+        .number {
+           font-size: 70px;
+           font-weight: bold;
+        }
+
+        .sub-text {
+            color: #a7a7a7;
+            padding: 25px;
+        }
+
+        .card button {
+            padding: 10px 15px;
+            background-color: #eeddbd;
+            border: 2px solid orange;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <h1>EJERCICIO PRIMER PARCIAL</h1>
+    <div class="container">
+        <div class="card color_one">
+            <div class="title"><h3>Basico</h3></div>
+            <p class="sub-title">Pago Mensual</p>
+            <p class="number">19</p>
+            <p class="sub-text">Prueba nuestra plataforma. cancela cuando quieras</p>
+            <button>Escoje este -></button>
+        </div>
+        <div class="card color_two">
+            <div class="title"><h3>Recomendado</h3></div>
+            <p class="sub-title">Pago Anual</p>
+            <p class="number">99</p>
+            <p class="sub-text">Ahorras $129 comparado al plan mensual</p>
+            <button>Escoje este -></button>
+
+        </div>
+        <div class="card color_three">
+            <div class="title"><h3>Mas</h3></div>
+            <p class="sub-title">Pago diario</p>
+            <p class="number">19</p>
+            <p class="sub-text">Para dos personas...     comparado</p>
+            <button>Escoje este -></button>
+
+        </div>
+    </div>
+    <a href="../index.html">VOLVER A INDEX</a>
+</body>
+
+</html>
