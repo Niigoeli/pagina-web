@@ -5,8 +5,23 @@
   --white: #fff;
   --primary-color: #459a61;
   --secondary-color: #c7c7c7;
-
+  --padding-container: 100px 0;
+  --color-title: #001a49;
 }
+
+.container-blog {
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: var(--padding-container);
+}
+
+.container-blog  p {
+  margin: 20px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -132,4 +147,6 @@ footer {
   padding: 20px;
   font-weight: bold;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.12);
+
+  
 }
